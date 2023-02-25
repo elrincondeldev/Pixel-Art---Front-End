@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.main-container {
+    font-family: 'VT323', monospace;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box {
+    background-color: rgb(73, 73, 73);
+}
+
+.title {
+    line-height: 180px;
+}
+
+.title h1 {
+    font-size: 200px;
+    text-align: center;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 150px;
+}
+
+.gameHome {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 10px;
+}
+
+.gameHome button {
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.buttonGame {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+.buttonGame:hover {
+    box-shadow: 3px 3px;
+}
+
+.gameHome button:hover {
+    box-shadow: 3px 3px;
+}

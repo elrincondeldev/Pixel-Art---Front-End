@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 10px;
+}
+
+canvas {
+    border: solid 1px black;
+    margin-bottom: 130px;
+}
+
+.button-container {
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 30px;
+}
+
+.colorsRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    position: fixed;
+    padding: 30px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    box-shadow: 0px 0px 10px 5px;
+}
+
+.allColors {
+    display: flex;
+    gap: 10px;
+}
+
+.allColors div {
+    width: 4vw;
+    height: 2.3vw;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.selectedColor {
+    width: 4vw;
+    height: 2.3vw;
+    border: 1px solid black;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(73, 73, 73);
+    background-image: url("./assets/duckdef.png");
+    animation: scroll 1600s linear infinite;
+}
+
+@keyframes scroll {
+    100% {
+        background-position: -30000px 30000px;
+    }
+}
+
