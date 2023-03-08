@@ -7,7 +7,7 @@ This is an online pixel art, basically a game where you can place pixels and cre
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Built with](#built-with)
-- [Author](#author)
+- [Authors](#authors)
 
 ## Overview
 
