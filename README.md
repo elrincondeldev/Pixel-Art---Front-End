@@ -1,6 +1,6 @@
 # Pixel Art - HackAfor
 
-This is a pixel art created from scratch using React Vite, TailwindCSS, NodeJs, Express, MariaDB, and AWS.
+This is an online pixel art, basically a game where you can place pixels and create art with other people.
 
 ## Table of contents
 
@@ -25,11 +25,22 @@ Link to the game: http://13.38.113.187
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- JavaScript
-## Author
+This is a pixel art created from scratch using React Vite, TailwindCSS, NodeJs, Express, MariaDB, and AWS.
+
+- React Vite
+- TailwindCSS
+- NodeJs
+- Express
+- MariaDB
+- AWS
+
+## Authors
+
+Jose Ramón Montes Hermida:
 
 - TikTok - [@elrincondeldev](https://www.tiktok.com/@elrincondeldev)
 - Instagram - [@elrincondeldev](https://www.instagram.com/elrincondeldev/)
+
+Iván Rodriguez Bouzada:
+
+- Github - [IRB](https://github.com/irbbb)
