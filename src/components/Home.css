@@ -13,7 +13,8 @@
 }
 
 .box {
-    background-color: rgb(73, 73, 73);
+    background-color: #83d8ffdd;
+    padding: 50px;
 }
 
 .title {
@@ -67,7 +68,7 @@
     font-size: 20px;
     padding: 20px;
     width: 400px;
-    height: 400px;
+    height: 430px;
     display: block;
 }
 
@@ -77,4 +78,83 @@
 
 .gameHome button:hover {
     box-shadow: 3px 3px;
+}
+
+@media all and (max-width: 760px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 30px;
+    }
+    
+    .box {
+        background-color: #83d8ffdd;
+    }
+    
+    .title {
+        line-height: 100px;
+    }
+    
+    .title h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+    
+    .title h2 {
+        text-align: center;
+        font-size: 75px;
+    }
+    
+    .gameHome {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        margin-bottom: 10px;
+    }
+    
+    .gameHome button {
+        background-color: black;
+        width: 150px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .buttonGame {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    .show {
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        width: 400px;
+        height: 430px;
+        display: block;
+    }
+    
+    .buttonGame:hover {
+        box-shadow: 3px 3px;
+    }
+    
+    .gameHome button:hover {
+        box-shadow: 3px 3px;
+    } 
 }

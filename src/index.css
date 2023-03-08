@@ -8,14 +8,20 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .main-container {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgb(73, 73, 73);
-    background-image: url("./assets/duckdef.png");
+    background-color: #41a6f644;
+    background-image: url("./assets/bg-def.png");
     animation: scroll 1600s linear infinite;
 }
 
@@ -25,3 +31,27 @@ html {
     }
 }
 
+.shadow-custom {
+    @apply shadow-lg;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* Ancho de la barra de desplazamiento */
+::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  /* Fondo de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Color de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  /* Color de la barra de desplazamiento al pasar el cursor sobre ella */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }

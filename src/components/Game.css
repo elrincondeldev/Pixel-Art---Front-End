@@ -1,45 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'VT323', monospace;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(73, 73, 73);
+    background-color: white;
+    margin: auto;
 }
 
 h1 {
     text-align: center;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.game {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 60%;
-    gap: 10px;
-}
-
 canvas {
-    border: solid 1px black;
-    margin-bottom: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
 }
 
-.button-container {
-    width: 60%;
-    display: flex;
-    justify-content: right;
-    margin-bottom: 30px;
-}
+
 
 .colorsRow {
     display: flex;
@@ -79,4 +62,9 @@ canvas {
     text-align: center;
     font-size: 30px;
     margin-right: 10px;
+}
+
+.x {
+    text-align: center;
+    color: white;
 }

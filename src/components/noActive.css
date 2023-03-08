@@ -1,0 +1,18 @@
+.noActive {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    border-color: transparent;
+    color: rgb(114, 114, 114);
+
+}
+
+.noActive:hover {
+    border-color: rgb(209 213 219);
+    color: rgb(55 65 81);
+}

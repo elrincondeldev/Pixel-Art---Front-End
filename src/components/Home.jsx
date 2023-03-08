@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
 import { useState } from "react";
@@ -26,10 +26,11 @@ function Home() {
           <div className="buttonContainer">
           <button className="buttonX" onClick={() => setDisplay("hide")}>x</button>
           </div>
-          <ul className="list">
-            <li>- Solo tienes que escoger un color de los 16 que tienes disponibles y empezar a crear arte con la comunidad!</li><br />
+          <ul>
+            <li>- Escoge un color de los 16 que tienes disponibles y empieza a crear arte con la comunidad!</li><br />
+            <li>- En la versión de escritorio puedes aumentar o reducir el tamaño del Pixel Art con los botones + Y - o ALT + Scroll</li><br />
             <li>- Si hay franceses, son los enemigos.</li><br />
-            <li>- Seguir a El Rincón Del Dev en Instagram</li>
+            <li>- Seguir a @elrincondeldev en Instagram</li>
           </ul>
         </div>
       </div>
